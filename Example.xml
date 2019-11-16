@@ -1,0 +1,3 @@
+<RooteNode>
+    <ConnectionString>#{CString}#</ConnectionString>
+</RootNode>
