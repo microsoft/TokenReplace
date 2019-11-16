@@ -4,7 +4,7 @@ languages: yaml
 products: GitHub
 description: "This is a simple example of how to replace tokens in code on-the-fly with a GitHub build action."
 urlFragment: "https://github.com/microsoft/TokenReplace"
----
+--- 
 
 # Official Microsoft Sample
 
