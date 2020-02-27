@@ -37,7 +37,7 @@ GitHub account with build/actions enabled.
 
 ## Setup
 
-Simply copy the .yml file provided and modify to suit the project needs.
+Simply copy the .yml file provided and modify to suit the project needs.  To store the secrets that will be used in the token replace, use GitHub's Secrets section for your project under Settings --> Secrets.  This example project has already stored secrets for "CString" and "PWord" in this GitHub repo and the pipeline is simply pulling the secrets from there for insertion into the script.
 
 ## Runnning the sample
 
