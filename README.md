@@ -16,7 +16,7 @@ Guidance on onboarding samples to docs.microsoft.com/samples: https://review.doc
 Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
 -->
 ## Introduction
-This is a simple example of how to replace tokens in code on-the-fly during a build script.  Two examples are provided, one using a build variable (declared as an evironment variable in the build script), the other using project secrets (maintaed under settings -> ssecrets).
+This is a simple example of how to replace tokens in code on-the-fly during a build script.  Two examples are provided, one using a build variable (declared as an environment variable in the build script), the other using project secrets (maintained under Settings -> Secrets).
 
 ## Contents
 
@@ -37,15 +37,15 @@ GitHub account with build/actions enabled.
 
 ## Setup
 
-Simply copy the .yml file provided and modify to suit the project needs.  To store the secrets that will be used in the token replace, use GitHub's Secrets section for your project under Settings --> Secrets.  This example project has already stored secrets for "CString" and "PWord" in this GitHub repo and the pipeline is simply pulling the secrets from there for insertion into the script.
+Simply copy the .yml file provided and modify to suit the project needs.  To store the secrets that will be used in the token replace, use GitHub's Secrets section for your project under Settings -> Secrets.  This example project has already stored secrets for "CString" and "PWord" in this GitHub repo and the pipeline is simply pulling the secrets from there for insertion into the script.
 
-## Runnning the sample
+## Running the sample
 
 GitHub will automatically run .yml files stored in the .github/workflows folder.  To enable it on your own repository, simply ensure the .yml file you use is located in your respective repo in the same location.
 
 ## Key concepts
 
-The purpose of this tool is to show how one can replace text inside of a source file at build-time and replace it with either secrets or environemnt (build) varaibles.
+The purpose of this tool is to show how one can replace text inside of a source file at build-time and replace it with either secrets or environment (build) variables.
 
 ## Contributing
 
